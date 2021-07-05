@@ -709,7 +709,7 @@ ul.footer_social li a i:hover {
 	font-size: 60px;
 	letter-spacing: 2px;
 	line-height: 65px;
-	text-shadow:  5px 2px 13px black;;
+	text-shadow:  5px 2px 13px black;
 }
 
 #text-header strong{
@@ -725,6 +725,7 @@ ul.footer_social li a i:hover {
 	font-weight: lighter;
 	width: 328px;
 	border-bottom: white 3px solid;
+	text-shadow:  6px 2px 5px black;;
 }
 
 

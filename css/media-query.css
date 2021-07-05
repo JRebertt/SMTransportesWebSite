@@ -71,7 +71,7 @@
 @media screen and (max-width:800px) {
 
     #text-header{
-        margin-left: 10rem;
+        margin-left: 0rem;
         width: 400px;
     }
 
@@ -123,7 +123,7 @@
     }
     
     .home-section{
-        background-position:-400px 0px,
+        background-position:-540px 0px,
                             center;
 
     }
