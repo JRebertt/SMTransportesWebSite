@@ -693,31 +693,56 @@ ul.footer_social li a i:hover {
 	text-align: center;
 }
 
+/*Text Home Section*/
+#text-header{
+	text-transform: uppercase;
+	font-family: 'Open Sans';
+	display: flex;
+	flex-direction: column;
+	margin-top: 270px;
+	margin-left: 135rem;
+}
+
+#text-header p{
+	font-weight: lighter;
+	color: white;
+	font-size: 60px;
+	letter-spacing: 2px;
+	line-height: 65px;
+	text-shadow:  5px 2px 13px black;;
+}
+
+#text-header strong{
+	font-weight: bold;
+}
+
+#text-header h5{
+	text-transform: none;
+	color: rgb(255, 255, 255);
+	font-size: 25px;
+	letter-spacing: 2px;
+	line-height: 30px;
+	font-weight: lighter;
+	width: 328px;
+	border-bottom: white 3px solid;
+}
+
+
+/*Text Home Section*/
+
 .home-section {
-	background-image: url('../images/banner-smt.jpg');
+	background-image: url('../images/banner-sm.png');
+	background-position: 0px 0px,center;
 	background-size: cover;
+	height: auto;
 	width: 100%;
+	padding-bottom: 10px;
 	position: relative;
   	padding-top: 180px;
   	padding-bottom: 115px;
 }
 
-.home-section h1{
-    line-height: 54px;
-    font-weight: 700;
-    color: #ffffff;
-    letter-spacing: 1px;
-    text-shadow: 5px 4px 2px rgb(0 0 0 / 50%);
-}
 
-.home-section p{
-	max-width: 600px;
-	font-size: 20px;
-	line-height: 30px;
-	font-weight: 400;
-	color: #fff;
-    text-shadow: 3px 1px 2px rgb(0 0 0 / 70%);
-}
 
 ul.home-benefits li {
     font-size: 20px;
