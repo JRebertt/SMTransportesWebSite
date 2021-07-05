@@ -1,0 +1,45 @@
+
+/**/
+@media  screen and (max-width:1005px ){
+	ul.features-list-hero{
+	
+        width: 308px;
+        display: flex;
+        margin-bottom: 25px;
+        flex-wrap: nowrap;
+        text-align: center;
+    }
+    
+    ul.features-list-hero li i{
+        display: flex;
+        margin: 0px 0px 0px 20px;
+        padding: 0;
+    }
+    
+    #info h2{
+        font-size: 25px;
+    }
+
+    #info p{
+        font-size: 10px;
+    }
+
+
+}
+
+@media screen and (max-width:840px) {
+
+    #local iframe{
+        width: 250px;
+        height: 230px;
+    }
+
+    #info h2{
+        font-size: 25px;
+    }
+
+    #info p{
+        font-size: 15px;
+    }
+    
+}
