@@ -6,6 +6,7 @@
         margin-left: 70rem;
         width: 600px;
     }
+   
     
 }
 
@@ -48,7 +49,7 @@
         font-size: 10px;
     }
 
-
+   
 }
 
 @media screen and (max-width:840px) {
@@ -119,7 +120,7 @@
     }
 
     .section-dark {
-        height: 120rem;
+        height: 125rem;
     }
     
     .home-section{
@@ -128,4 +129,29 @@
 
     }
 }
+
+@media screen and (max-width:1430px){
+    #text-header{
+        margin-left: 0rem;
+        width: 400px;
+    }
+
+    #text-header p{
+        font-size: 40px;
+        letter-spacing: 2px;
+	    line-height: 47px;
+    }
+    #text-header h5{
+        font-size: 23px;
+    }
+
+    .home-section{
+        background-position: -560px 0px,
+                            center;
+
+    }
+}
+
+
+
 

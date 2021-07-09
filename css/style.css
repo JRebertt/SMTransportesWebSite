@@ -586,12 +586,22 @@ iframe {
 /* ========================================================== */
 
 /* Contato Footer */
+
+	#contato{
+		display: flex;
+		flex-direction: column;
+	}
+
 	#contato,
 	#contato h2{
 		color: #fff;
 		text-align: center;
 	}
 
+	#contato p{
+		color: #7c8595;
+	}
+	
 	#contato i{
 		color: #f7081d;
 		font-size: 20px;
